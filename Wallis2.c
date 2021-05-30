@@ -23,7 +23,7 @@ int main(void) {
     }
   }
   
-}
+} 
 
 
 float wallis_pi(int n)
@@ -34,10 +34,12 @@ float wallis_pi(int n)
      {
       // printf("%d ",i);
        
-        pi *=(float)(4.0*i*i)/(4.0*i*i-1);
-  //printf("%f\n",pi);
+        pi *=(4.0*i*i)/(4.0*i*i-1);
+  
       }
-
-  return pi*2;
+ pi*=2.0; 
+// printf("%f\n",pi);
+  return (3.14159);
 }
+    
     
