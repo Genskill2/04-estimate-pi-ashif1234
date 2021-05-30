@@ -34,7 +34,7 @@ float wallis_pi(int n)
      {
       // printf("%d ",i);
        
-        pi *=(4.0*i*i)/(4.0*i*i-1);
+        pi *=(float)(4.0*i*i)/(4.0*i*i-1);
   //printf("%f\n",pi);
       }
 
